@@ -9,6 +9,11 @@ import SwiftUI
 import PresentationLayer
 import DILayer
 import UtilLayer
+#if canImport(MultiTargetsResources)
+import MultiTargetsResources
+#elseif canImport(EmaarResources)
+import EmaarResources
+#endif
 
 @main
 struct MultiTargetsApp: App {
@@ -23,6 +28,7 @@ struct MultiTargetsApp: App {
         WindowGroup {
 //            ContentView()
             LoginView()
+                .background(Color.backgroundColor)
         }
     }
 }

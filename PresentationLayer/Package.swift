@@ -11,6 +11,12 @@ let package = Package(
         .library(
             name: "PresentationLayer",
             targets: ["PresentationLayer"]),
+        .library(
+            name: "EmaarResources",
+            targets: ["EmaarResources"]),
+        .library(
+            name: "MultiTargetsResources",
+            targets: ["MultiTargetsResources"]),
     ],
     dependencies: [
 //        .package(url: "https://github.com/SDWebImage/SDWebImageSwiftUI.git", from: "3.0.0"),
@@ -26,11 +32,16 @@ let package = Package(
 //                .product(name: "SDWebImageSwiftUI", package: "SDWebImageSwiftUI"),
                 .product(name: "DomainLayer", package: "DomainLayer"),
                 .product(name: "UtilLayer", package: "UtilLayer")
-            ]//,
-//            resources: [
-//                .process("Emaar/Colors.xcassets"),
-//                .process("Lyve/Colors.xcassets")
-//            ]
+            ],
+            resources: [.process("Resources")]
+        ),
+        .target(
+            name: "EmaarResources",
+            resources: [.process("Resources")]
+        ),
+        .target(
+            name: "MultiTargetsResources",
+            resources: [.process("Resources")]
         ),
         .testTarget(
             name: "PresentationLayerTests",
