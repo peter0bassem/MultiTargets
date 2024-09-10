@@ -1,0 +1,13 @@
+//
+//  MultiTargets-Dev.xcconfig
+//  MultiTargets
+//
+//  Created by iCommunity app on 08/09/2024.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+BASE_URL = https:/$()/dev.server.com
+APP_ID = 0
+APP_NAME = Lyve-Dev

@@ -1,0 +1,13 @@
+//
+//  Emmar-Production.xcconfig
+//  Emaar
+//
+//  Created by iCommunity app on 08/09/2024.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+BASE_URL = https:/$()/www.emaarserver.com
+APP_ID = 1000
+APP_NAME = Emaar
