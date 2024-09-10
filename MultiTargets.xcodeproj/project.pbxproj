@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28A90B772C90F6EF004CA204 /* MultiTargetsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA998E662C8C978C00856608 /* MultiTargetsApp.swift */; };
+		28D028E62C90F5CF00FA3290 /* MultiTargetsResources in Frameworks */ = {isa = PBXBuildFile; productRef = 28D028E52C90F5CF00FA3290 /* MultiTargetsResources */; };
+		28D028E82C90F5D700FA3290 /* EmaarResources in Frameworks */ = {isa = PBXBuildFile; productRef = 28D028E72C90F5D700FA3290 /* EmaarResources */; };
 		FA5BFDC92C8E50E40044D368 /* DILayer in Frameworks */ = {isa = PBXBuildFile; productRef = FA5BFDC82C8E50E40044D368 /* DILayer */; };
 		FA5BFDCB2C8E50EA0044D368 /* DILayer in Frameworks */ = {isa = PBXBuildFile; productRef = FA5BFDCA2C8E50EA0044D368 /* DILayer */; };
 		FA6F1AD62C8FA0590021BEE8 /* Lyve-info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA6F1AD52C8F9FC00021BEE8 /* Lyve-info.plist */; };
@@ -15,7 +18,6 @@
 		FA998E6B2C8C978E00856608 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA998E6A2C8C978E00856608 /* Assets.xcassets */; };
 		FA998E6E2C8C978E00856608 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA998E6D2C8C978E00856608 /* Preview Assets.xcassets */; };
 		FAB03E992C8D0C3500874578 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA998E682C8C978C00856608 /* ContentView.swift */; };
-		FAB03E9A2C8D0C3500874578 /* MultiTargetsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA998E662C8C978C00856608 /* MultiTargetsApp.swift */; };
 		FAB03E9E2C8D0C3500874578 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA998E6D2C8C978E00856608 /* Preview Assets.xcassets */; };
 		FAB03E9F2C8D0C3500874578 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA998E6A2C8C978E00856608 /* Assets.xcassets */; };
 		FAB03EB52C8D0E6B00874578 /* Emmar-Dev.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = FAB03EB42C8D0E6B00874578 /* Emmar-Dev.xcconfig */; };
@@ -52,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28D028E62C90F5CF00FA3290 /* MultiTargetsResources in Frameworks */,
 				FA5BFDCB2C8E50EA0044D368 /* DILayer in Frameworks */,
 				FAB03EE12C8DCBB000874578 /* PresentationLayer in Frameworks */,
 			);
@@ -62,6 +65,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA5BFDC92C8E50E40044D368 /* DILayer in Frameworks */,
+				28D028E82C90F5D700FA3290 /* EmaarResources in Frameworks */,
 				FAB03EDF2C8DCB3900874578 /* PresentationLayer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -159,6 +163,7 @@
 			packageProductDependencies = (
 				FAB03EE02C8DCBB000874578 /* PresentationLayer */,
 				FA5BFDCA2C8E50EA0044D368 /* DILayer */,
+				28D028E52C90F5CF00FA3290 /* MultiTargetsResources */,
 			);
 			productName = MultiTargets;
 			productReference = FA998E632C8C978C00856608 /* MultiTargets.app */;
@@ -180,6 +185,7 @@
 			packageProductDependencies = (
 				FAB03EDE2C8DCB3900874578 /* PresentationLayer */,
 				FA5BFDC82C8E50E40044D368 /* DILayer */,
+				28D028E72C90F5D700FA3290 /* EmaarResources */,
 			);
 			productName = MultiTargets;
 			productReference = FAB03EA52C8D0C3500874578 /* Emaar.app */;
@@ -262,8 +268,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28A90B772C90F6EF004CA204 /* MultiTargetsApp.swift in Sources */,
 				FAB03E992C8D0C3500874578 /* ContentView.swift in Sources */,
-				FAB03E9A2C8D0C3500874578 /* MultiTargetsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1293,6 +1299,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		28D028E52C90F5CF00FA3290 /* MultiTargetsResources */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MultiTargetsResources;
+		};
+		28D028E72C90F5D700FA3290 /* EmaarResources */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = EmaarResources;
+		};
 		FA5BFDC82C8E50E40044D368 /* DILayer */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = DILayer;
